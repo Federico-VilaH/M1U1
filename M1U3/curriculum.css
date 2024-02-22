@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+h2{
+    color: brown;
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.casa{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    box-shadow: -15px 5px 108px 22px rgba(0,0,0,0.75);
+}
+.img{
+    box-shadow: -15px 5px 108px 22px rgba(0,0,0,0.75);
+}
