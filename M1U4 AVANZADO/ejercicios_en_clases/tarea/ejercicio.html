@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="caja">
+        <div class="box negro" onclick="cambiarFondo('black')"></div>    
+        <div class="box naranja" onclick="cambiarFondo('orange')"></div>
+        <div class="box verde" onclick="cambiarFondo('green')"></div>
+   </div> 
+   <style>
+         .caja {
+            display: flex;
+         }
+         .box {
+             height: 350px;
+             width: 350px;
+         }
+         .negro {
+            background-color: black;
+         }
+         .naranja {
+            background-color: orange;
+         }
+         .verde {
+            background-color: green;
+         }
+   </style>
+   <script> 
+            function cambiarFondo(color) {
+   document.querySelector("body").style.background = color;
+         }
+       </script>
+</body>
+</html>
