@@ -1,0 +1,20 @@
+/*
+font-family: "Edu NSW ACT Foundation", cursive;
+font-family: "Tauri", sans-serif;
+*/
+
+footer {
+    background-color: darkslategrey;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero {
+    background: url(../imagenes/piano.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color:white;
+}
